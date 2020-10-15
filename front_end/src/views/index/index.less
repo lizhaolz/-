@@ -1,0 +1,78 @@
+@import '../../common.less';
+.dicom-index-container{
+  height: 100%;
+  .el-header{
+    height: 47px!important;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background: @theme-primary-color;
+    .eword-logos{
+      width: 78px;
+      height: 28px;
+      //background: url("/static/image/logo.png") no-repeat center center;
+      -webkit-background-size: contain;
+      background-size: contain;
+    }
+    .other-op{
+      .other-op-icon{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin: 0 5px;
+        cursor: pointer;
+        font-size: 30px;
+      }
+    }
+  }
+  .index-main{
+    height: 100%;
+    background: #000000;
+    color: #ffffff;
+    .search-input-wrapper{
+      width: 100%;
+      .search-column{
+        width: 15%;
+        min-width: 150px;
+        margin: 0 5px;
+        .el-input{
+          width: 100%;
+        }
+        .el-select{
+          width: 100%;
+        }
+      }
+      .long-cloumn{
+        width: 350px;
+      }
+    }
+    .search-result-wrapper{
+      margin-top: 20px;
+      height: 80%;
+      .table-bg{
+        background: @theme-primary-color;
+        .current-row{
+          background: #000000!important;
+        }
+      }
+    }
+    .pagenation-wrapper{
+      margin-top: 20px;
+    }
+  }
+  .index-footer{
+    height: 30px!important;
+    line-height: 30px;
+    background: @theme-primary-color;
+    .company-title{
+      float: left;
+      color: #fff;
+      line-height: 30px;
+    }
+    .company-tel{
+      float: right;
+      color: #fff;
+      line-height: 30px;
+    }
+  }
+}

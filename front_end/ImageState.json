@@ -1,0 +1,121 @@
+{
+	"imageIdToolState": {
+		"example://1": {
+			"probe": {
+				"data": [{
+					"visible": true,
+					"active": false,
+					"handles": {
+						"end": {
+							"x": 160,
+							"y": 81,
+							"highlight": true,
+							"active": false
+						}
+					},
+					"invalidated": true
+				}, {
+					"visible": true,
+					"active": false,
+					"handles": {
+						"end": {
+							"x": 74,
+							"y": 174,
+							"highlight": true,
+							"active": false
+						}
+					},
+					"invalidated": true
+				}, {
+					"visible": true,
+					"active": false,
+					"handles": {
+						"end": {
+							"x": 72,
+							"y": 70,
+							"highlight": true,
+							"active": false
+						}
+					},
+					"invalidated": true
+				}, {
+					"visible": true,
+					"active": false,
+					"handles": {
+						"end": {
+							"x": 128,
+							"y": 139,
+							"highlight": true,
+							"active": false
+						}
+					},
+					"invalidated": true
+				}, {
+					"visible": true,
+					"active": false,
+					"handles": {
+						"end": {
+							"x": 219,
+							"y": 228,
+							"highlight": true,
+							"active": false
+						}
+					},
+					"invalidated": true
+				}]
+			}
+		}
+	},
+	"elementToolState": {
+		"axial1": {
+			"stack": {
+				"data": [{
+					"currentImageIdIndex": 0,
+					"imageIds": ["example://1", "example://2"]
+				}]
+			}
+		},
+		"axial2": {
+			"stack": {
+				"data": [{
+					"currentImageIdIndex": 1,
+					"imageIds": ["example://1", "example://2"]
+				}]
+			}
+		}
+	},
+	"elementViewport": {
+		"axial1": {
+			"scale": 1,
+			"translation": {
+				"x": 0,
+				"y": 0
+			},
+			"voi": {
+				"windowWidth": 256,
+				"windowCenter": 127
+			},
+			"pixelReplication": false,
+			"rotation": 0,
+			"hflip": false,
+			"vflip": false,
+			"labelmap": false
+		},
+		"axial2": {
+			"scale": 1,
+			"translation": {
+				"x": 0,
+				"y": 0
+			},
+			"voi": {
+				"windowWidth": 256,
+				"windowCenter": 127
+			},
+			"pixelReplication": false,
+			"rotation": 0,
+			"hflip": false,
+			"vflip": false,
+			"labelmap": false
+		}
+	}
+}

@@ -1,0 +1,311 @@
+.dicom-container {
+  background: #000;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.dicom-container .dicom-header {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.dicom-container .dicom-header .eword-logo {
+  width: 78px;
+  height: 28px;
+  margin-right: 11px;
+  opacity: .7;
+}
+.dicom-container .dicom-header .dicom-tool-box {
+  height: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.dicom-container .dicom-header .dicom-tool-box .tool-box-split-line {
+  width: 3px;
+  height: 32px;
+  background: url("/static/image/split.png");
+  margin-left: 20px;
+}
+.dicom-container .dicom-header .dicom-tool-box .tool-btn-box {
+  height: 24px;
+}
+.dicom-container .dicom-header .dicom-tool-box .tool-btn-box .active {
+  opacity: 1;
+}
+.dicom-container .dicom-header .dicom-tool-box .aside-btn-box {
+  height: 30px;
+}
+.dicom-container .dicom-header .eword-help {
+  width: 39px;
+  height: 24px;
+  background: url("/static/image/help.png") no-repeat center center;
+}
+.dicom-container .dicom-header .dicom-tool-box-more {
+  position: absolute;
+  left: 108px;
+  bottom: -60px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 100;
+  padding-right: 50px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.dicom-container .dicom-header .dicom-tool-box-more .tool-btn-box {
+  padding: 10px 0;
+}
+.dicom-container .dicom-aside {
+  flex-direction: column;
+  align-items: center;
+  transition: width 300ms;
+}
+.dicom-container .dicom-aside .dicom-thumbnail {
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #afafde;
+  margin-top: 5px;
+  position: relative;
+}
+.dicom-container .dicom-aside .dicom-thumbnail img {
+  width: 64px;
+  height: 64px;
+}
+.dicom-container .dicom-aside .selected {
+  border-color: #ff0;
+}
+.dicom-container .dicom-aside .study-tag {
+  color: #fff;
+  width: 100px;
+  overflow: hidden;
+  border-color: #fff;
+  opacity: 0.7;
+}
+.dicom-container .dicom-aside .active {
+  opacity: 1;
+}
+.dicom-container .dicom-view-port {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0;
+}
+.dicom-container .dicom-view-port .view-port-item {
+  border: 1px solid #666;
+}
+.dicom-container .dicom-view-port .active {
+  border-color: yellow;
+}
+/* menu部分图标 */
+.dropdown-menu {
+  background: #333;
+  border-color: #333;
+}
+.dropdown-menu .dropdown-item {
+  color: #7c7c7e;
+  font-size: 14px;
+  align-items: center;
+  padding: 5px 30px;
+}
+.aside-menu {
+  color: #fff;
+  font-size: 30px;
+  height: 30px;
+  opacity: .5;
+}
+.aside-menu:hover {
+  opacity: 1;
+}
+.dicom-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-left: 20px;
+  opacity: .5;
+}
+.dicom-icon:hover {
+  opacity: 1;
+}
+.dicom-icon-layout {
+  background: url("/static/image/layout.png");
+}
+.dicom-icon-layout-1-1 {
+  background: url("/static/image/layout1X1.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-1-2 {
+  background: url("/static/image/layout1X2.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-2-1 {
+  background: url("/static/image/layout2X1.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-2-2 {
+  background: url("/static/image/layout2X2.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-2-3 {
+  background: url("/static/image/layout2X3.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-3-2 {
+  background: url("/static/image/layout3X2.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-3-3 {
+  background: url("/static/image/layout3X3.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-layout-3-4 {
+  background: url("/static/image/layout3X4.png");
+  margin: 0 10px 0 30px;
+}
+.layout-empty {
+  margin-left: 30px ;
+  display: block;
+  width: 100%;
+}
+.dicom-icon-sun {
+  background: url("/static/image/sun.png");
+}
+.dicom-icon-dropdown {
+  width: 9px;
+  height: 8px;
+  margin-top: 10px;
+  margin-left: 6px;
+  background: url("/static/image/dropdown.png");
+}
+.dicom-icon-zoom {
+  background: url("/static/image/zoom.png");
+}
+.dicom-icon-magnifier {
+  background: url("/static/image/magnifier.png");
+}
+.dicom-icon-self-adaption {
+  background: url("/static/image/self-adaption1.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-move {
+  background: url("/static/image/self-adaption.png");
+}
+.dicom-icon-rotate {
+  background: url("/static/image/rotate.png");
+}
+.dicom-icon-rotate-1 {
+  background: url("/static/image/rotate1.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-reversal {
+  background: url("/static/image/reversal.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-horizontal {
+  background: url("/static/image/horizontal.png");
+  margin: 0 10px 0 30px;
+}
+.dicom-icon-vertically {
+  background: url("/static/image/vertically.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-reverse-phase {
+  background: url("/static/image/reverse-phase.png");
+}
+.dicom-icon-reset {
+  background: url("/static/image/reset.png");
+}
+.dicom-icon-distance {
+  background: url("/static/image/distance.png");
+}
+.dicom-icon-ellipse {
+  background: url("/static/image/ellipse.png");
+}
+.dicom-icon-ct {
+  background: url("/static/image/CT.png");
+}
+.dicom-icon-clear {
+  background: url("/static/image/clear.png");
+}
+.dicom-icon-hand-painted {
+  background: url("/static/image/hand-painted.png");
+  /*margin: 0 10px 0 0;*/
+}
+.dicom-icon-rectangle {
+  background: url("/static/image/rectangle.png");
+  /*margin: 0 10px 0 0;*/
+}
+.dicom-icon-angle {
+  background: url("/static/image/angle.png");
+  /*margin: 0 10px 0 0;*/
+}
+.dicom-icon-three-line-angle {
+  background: url("/static/image/three-line-angle.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-arrow {
+  background: url("/static/image/arrow.png");
+  /*margin: 0 10px 0 0;*/
+}
+.dicom-icon-ctr {
+  background: url("/static/image/ctr.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-clear-all {
+  background: url("/static/image/clear1.png");
+  margin: 0 10px 0 0;
+}
+.dicom-icon-play {
+  background: url("/static/image/play.png");
+}
+.dicom-icon-synchro {
+  background: url("/static/image/synchro.png");
+}
+.dicom-icon-same-layer {
+  background: url("/static/image/same-layer.png");
+}
+.dicom-icon-location-line {
+  background: url("/static/image/location-line.png");
+}
+.dicom-icon-information {
+  background: url("/static/image/information.png");
+}
+.dicom-icon-share {
+  background: url("/static/image/share.png");
+}
+.dicom-icon-dicom-header-info {
+  background: url("/static/image/dicom-header-info.png");
+}
+.dicom-icon-go-back {
+  background: url("/static/image/go-back.png");
+}
+.dicom-icon-more {
+  background: url("/static/image/more.png") no-repeat center center;
+}
+
+.toolbar-icon-text {
+  font-family: "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, mingLiu, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 14px;
+  color: #979797;
+}
+
+.dicom-container .dicom-header .el-icon-circle-plus {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ffffff;
+  opacity: 0.5;
+
+}
+
+.dicom-container .dicom-header .el-icon-circle-plus :hover{
+  opacity: 1;
+}
+.dicom-info {
+  width: 570px;
+  height: 500px;
+  position: center;
+  left: 30%;
+  top: 19%;
+}
+/*# sourceMappingURL=imageView.css.map */

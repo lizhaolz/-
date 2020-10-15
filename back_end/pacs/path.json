@@ -1,0 +1,5 @@
+{
+    "base_dir": "D:/dicomfile",
+    "dcm4che_dir": "D:/dcm4che-5.18.0/bin",
+    "thumbnailImage_base_dir": "D:/thumbnailImage"
+  }

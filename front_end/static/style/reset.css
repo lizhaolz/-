@@ -1,0 +1,130 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, cite, img, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+html,body{
+  height:100%
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+button {
+  outline: none;
+}
+ol, ul {
+  margin: 0;
+  padding: 0;
+}
+ol, ul, li {
+  list-style: none;
+}
+i, em {
+  font-style: normal;
+}
+blockquote {
+  quotes: none;
+}
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  text-decoration:none;
+  text-decoration: none;
+  transition: background-color .5s ease 0s,color .5s ease 0s,width .5s ease 0s,border-width .5s ease 0s,border-color .5s ease 0s;
+  -webkit-transition: background-color .5s ease 0s,color .5s ease 0s,width .5s ease 0s,border-width .5s ease 0s,border-color .5s ease 0s;
+  -moz-transition: background-color .5s ease 0s,color .5s ease 0s,width .5s ease 0s,border-width .5s ease 0s,border-color .5s ease 0s;
+  -ms-transition: background-color .5s ease 0s,color .5s ease 0s,width .5s ease 0s,border-width .5s ease 0s,border-color .5s ease 0s;
+  -o-transition: background-color .5s ease 0s,color .5s ease 0s,width .5s ease 0s,border-width .5s ease 0s,border-color .5s ease 0s
+}
+input, textarea{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+select, option{
+  font-family: inherit;
+}
+.noselect{
+  -webkit-user-select: none;
+  user-select: none;
+}
+.clear {
+  clear: both;
+}
+/*textarea,input,a{*/
+/*-webkit-appearance: none;*/
+/*}*/
+.clearfix:before,.clearfix:after{
+  content:"";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+.clearfix{
+  *zoom:1;
+}
+
+.flex{
+  display: -webkit-flex;  /* 新版本语法: Chrome 21+ */
+  display: flex;          /* 新版本语法: Opera 12.1, Firefox 22+ */
+  display: -webkit-box;   /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;      /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;   /* 混合版本语法: IE 10 */
+}
+
+.flex-item{
+  -webkit-flex: 1;        /* Chrome */
+  -ms-flex: 1;             /* IE 10 */
+  flex: 1;                /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-box-flex: 1;     /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;       /* OLD - Firefox 19- */
+}
+.el-popper[x-placement^=bottom] .popper__arrow::after{
+  border-bottom-color: #333!important;
+}
+.el-popper[x-placement^=bottom] .popper__arrow{
+  border-bottom-color: #333!important;
+}
+.el-table th, .el-table tr{
+  background: #1F1F29!important;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background: #1F1F29!important
+}
+.el-table__body tr.current-row>td{
+  background: #000000!important;
+}
+.el-table tr:hover{
+  background: #f6f6f6!important;
+}
+.el-switch__label.is-active{
+  color: #fff!important;
+}
+.el-tag .el-icon-close{
+  color: rgba(255,255,255,0.5)!important;
+}
+.el-switch__label.is-active{
+  color: #fff!important;
+}
+.el-table tr:hover{
+  background: #1F1F29!important;
+}
+.el-table{
+  color: #909399!important;
+  font-size: 14px!important;
+}
+.el-tag .el-icon-close{
+  color: rgba(255,255,255,0.5)!important;
+}
